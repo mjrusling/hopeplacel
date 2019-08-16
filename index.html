@@ -1,29 +1,166 @@
 <html>
 <head>
+
 	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	
+    <!--
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	
 	<!-- JS -->
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script src="js/hpl.js"></script>
-	<!-- 
-		<script src="jquery-3.4.1.min.js"></script>
-	-->
-	<!-- BOOTSTRAP -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 </head>
 <body onload="showThanks()">
-
-	<div style="height:400px; width: 100%; padding: 150px; text-align: center; font-size: 32px"> Welcome to Hope P'Lacel </div>
-	<div style="height:40px; width: 100%; text-align: center; font-size: 16px"> This site is currently under construction. </div>
-	<div style="height:40px; width: 100%; text-align: center; font-size: 16px"> Next page update scheduled for 8:00 PM GMT on 8/16/2019.</div>
-	<div id="el2" style="height:40px; width: 100%; text-align: center; font-size: 16px"></div>
+	<div id="headers">
+		<div id="header1">
+			<div class="container">
+				<div class="row" >
+					<div class="col-xs-4" ></div>
+					<div class="col-xs-1" style="background-image:linear-gradient(to right, green, white); height:100%"></div>
+					<div class="col-xs-2 no-padding" style="background-color:white">
+						<img src="img/logo.jpeg" alt="Hope P'Lacel Investment Limited" width="164" height="100" style="align: center">
+					</div>
+					<div class="col-xs-1" style="background-image:linear-gradient(to right, white, green); height:100%"></div>
+					<div class="col-xs-4" ></div>
+				</div>
+			</div>
+		</div>
+		<div id="header2" >
+			<div class="full" style="font-style: italic"> "Reliable hands outsmarting your problems with a smile." </div>
+			<!--
+			<div class="container">
+			
+			<div class="row" >
+				<div class="col-md-offset-3 col-md-2" style="text-align: center">Home</div>
+				<div class="col-md-2" style="text-align: center">Services</div>
+				<div class="col-md-2" style="text-align: center">Contact Us</div>
+			</div>
+			-->
+			</div>
+		</div>
+	</div>
 	
+	<div id="construction" class="container">
+		<div class="row">
+			<div class="col-xs-offset-1 col-xs-10">
+				<div class="alert alert-danger alert-dismissable" style="padding-top:10px;font-weight:bold"> 
+					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+					<div class="full" style="height:20px"> <span style="">This site is currently under construction. </span></div>
+					<div class="full" style="height:20px"> Next page update scheduled for 8:00 PM GMT on 8/16/2019.</div>
+					<div id="el2" class="full" style="height:20px"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="services" style="width: 100%"> 
+		<h3 style="text-align:center"> We are proud to offer these services: </h3>
+		<div class="container"> 
+			<div class="row">
+				<div class="col-xs-2"> </div>
+				<div class="col-xs-4"> 
+					<ul >
+						<li > Electrical Installations, for
+							<ul>
+								<li style="margin-left:8px"> Domestic and Commercial Buildings </li>
+								<li style="margin-left:8px">Hazardous areas in Petrol Stations, Hospital, Farms, etc </li>
+							</ul>
+							
+						</li>
+						<li > Electrical Repairs for Generators, Motors and Machines </li>
+						<li > Electrical Appliances and Accessories </li>
+						<li > Generators, Motor and Solar </li>
+						<li > Electronics and Cameras </li>
+					</ul>
+				</div>
+				<div class="col-xs-4"> 
+					<ul>
+						<li > General Construction
+							<ul >
+								<li style="margin-left:8px"> Plumbing </li>
+								<li style="margin-left:8px"> Building of Domestic and Commercial </li>
+								<li style="margin-left:8px"> Glass Fitting </li>
+								<li style="margin-left:8px"> Fitting Doors </li>
+								<li style="margin-left:8px"> Painting </li>
+							</ul>
+						</li>
+						<li > Supplying Goods </li>
+						<li > Contract Work </li>
+					</ul>
+				</div>
+				<div class="col-xs-2"> </div>
+			</div>
+		</div>
+		
+	</div>
+	<div id="contact" class="full"> 
+		<h4>Contact Us<h4>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-offset-2 col-xs-8">
+					<div class="panel panel-default">
+						<div class="panel-body" style="font-size: 14px">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-5 col-xs-offset-1">
+										<span style="display:block; text-align:left">Email: inhopepacel@gmail.com </span>
+										<p></p>
+										<span style="display:block; text-align:left">Location: </span>
+										<span style="display:block; text-align:left">Along Kampala - Gulu Highway </span>
+										<span style="display:block; text-align:left">Layibi Corner </span>
+									</div>
+									<div class="col-xs-5">
+										<span style="display:block; text-align:right">Tel: +256 771 602 137</span>
+										<span style="display:block; text-align:right">	+256 772 977 824</span>
+										<p></p>
+										<span style="display:block; text-align:right">Mailing Address: </span>
+										<span style="display:block; text-align:right">P.O. Box 781, Gulu (U) </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="about_us" > </div>
+	
+	
+	<div id="footers">
+		<div id="footer1"></div>
+		<div id="footer2">
+			<!--
+			<div class="container" style="padding: 5px">
+				<div class="row no-margin">
+					<div class="col-md-4"> </div>
+					<div class="col-md-2 no-padding" >
+						<span style="display:block">Location: </span>
+						<span style="display:block">Along Kampala - Gulu Highway </span>
+						<span style="display:block">Layibi Corner </span>
+					</div>
+					<div class="col-md-2 no-padding"> 
+						<span style="display:block; text-align:right">Mailing Address: </span>
+						<span style="display:block; text-align:right">P.O. Box 781, Gulu (U) </span>
+					</div>
+					<div class="col-md-4"> </div>
+				</div>
+			</div>
+			-->
+			<div class="full" style="padding-top:25px"> © 2019 Hope P'Lacel Investment LTD </div>
+		</div>
+	</div>
 
-	<!-- Compiled and minified JavaScript -->
+	<!-- Compiled and minified JavaScript - ->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<!-- JQUERY -->
+	<div >	</div>
 </body>
 </html>
