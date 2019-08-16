@@ -1,10 +1,10 @@
 // Reserved for custom JS
 
 var savedText = "";
-function showETA(e) {
-	savedText = e.innerHTML;
-	e.innerHTML = "Next page update: 8AM East Africa Time"
+function showThanks() {
+	setTimeout(myf, 2000);
 }
-function hideETA(e) {
-	e.innerHTML = savedText;
+
+function myf() {
+	document.getElementById("el2").innerHTML = "Thank you for your patience."
 }
