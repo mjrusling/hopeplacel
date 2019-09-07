@@ -1,4 +1,7 @@
 /* reserved for custom CSS */
+:root {
+	--variable-padding: 5%;
+}
 
 ul {
 	list-style-type: disc !important;
@@ -22,6 +25,17 @@ body {
 .no-margin {
 	margin: 0px;
 }
+.logo {
+	background-color: white; 
+	width: 164px; 
+	display: inline-block;
+	vertical-align: top;
+}
+.gradient {
+	display: inline-block;
+	height:100%; 
+	width: calc(50% - 88px); /**/
+}
 
 #headers {
 	margin-bottom: 15px
@@ -37,6 +51,11 @@ body {
 	background-color: #cccc00;
 	height: 20px
 }
+.service {
+	padding-left: var(--variable-padding);
+	padding-right: var(--variable-padding);
+}
+
 #footers {
 	width: 100%;
 	position: fixed;
