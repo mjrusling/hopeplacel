@@ -51,6 +51,10 @@ body {
 	background-color: #cccc00;
 	height: 20px
 }
+
+#services {
+	margin: 50px 0px;
+}
 .service {
 	padding-left: var(--variable-padding);
 	padding-right: var(--variable-padding);
